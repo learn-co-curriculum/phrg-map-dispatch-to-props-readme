@@ -129,3 +129,4 @@ So you can see that our __addItem()__ prop no longer directly points to the acti
 ## Summary
 
 In this lesson we saw that we can remove all reference to our store from our component via the __mapDispatchToProps()__ function. We saw that __mapDispatchToProps()__ allows us to pass through our action creator as a prop, and that by using __Redux's bindActionCreators()__ function, we can wrap the action creator in our store's dispatch function, so that the action is properly dispatched to the store.
+<p data-visibility='hidden'>PHRG Introduction</p>
